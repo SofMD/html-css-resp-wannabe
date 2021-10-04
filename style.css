@@ -71,3 +71,37 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/* responsive */
+
+@media screen and (max-width: 420px) {
+
+  .row {
+    max-width: 100%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right  {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #lezioni .row>.right {
+    margin-top: 50px;
+  }
+
+  #lezioni .row img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+
+  
+
+
+}
