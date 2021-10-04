@@ -76,7 +76,8 @@ img {
 
 /* responsive */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 419px) {
+
 /* lezioni */
   .row {
     max-width: 100%;
@@ -94,7 +95,6 @@ img {
   }
 
 
-
   /* steps */
   #steps .row>.left,
   #steps .row>.central,
@@ -106,9 +106,8 @@ img {
     width: auto;
   }
 
-  img {
+  #steps img, #lezioni img  {
     height: auto;
     max-width: 100%;
     object-fit: cover;
-}
-}
+  }
